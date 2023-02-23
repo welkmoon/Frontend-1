@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vw;
+    overflow: hidden;
+    background: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+}
+
+section {
+    width: 1030px;
+    margin: 0 auto;
+}
+
+header{
+    width: 1030px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 46px;
+    margin-bottom: 17px;
+}
+
+.header-logo{
+    display: flex;
+    height: 51px;
+    width: 180px;
+    text-decoration: none;
+}
+
+.header-logo:hover .header-logo-text{
+    color: #F26522;
+    
+}
+
+.header-logo:hover .header-logo-img {
+    color: #F26522;
+    background-image: url("../img/css_sprites.png");
+    background-position: -10px -10px;
+}
+
+.header-logo-img{
+    width: 53px; 
+    height: 47px;
+    background-image: url("../img/css_sprites.png");
+    background-position: -83px -10px;
+    
+}
+
+.header-logo-text{
+    height: 51px;
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    justify-content: space-around;
+}
+
+.header-logo-text p{
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 29px;
+    
+    text-transform: uppercase;
+    margin-left: 8px;
+}
+
+
+.header-logo-text p:last-child{
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 19px
+}
+
+.contacts a{
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.contacts a:first-child:hover{
+    color: #F26522;
+}
+
+.contacts a:last-child:hover{
+    color: #F26522;
+}
+
+.gallary{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(2, 261px);
+    grid-gap: 37px 54px;
+    margin-bottom: 49px;
+}
+
+section a{
+    text-decoration: none;
+}
+
+.gallary-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.gallary-item:hover .gallary-item-title{
+    color: #F26522;
+}
+
+.gallary-item:hover .gallary-item-info{
+    transform: translateY(0px);
+    transition: all 1s;
+    
+
+}
+
+
+.gallary-item-info{
+    width: 296px;
+    height: 55px;
+    background: #F26522;
+    padding-top: 7px;
+    padding-left: 16px;
+    padding-right: 37px;
+    bottom: 0;
+    left: 2px;
+    position: absolute;
+    transform: translateY(60px);
+    
+
+}
+
+.from{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 10px;
+    margin-bottom: 8px;
+
+    color: #FFFFFF;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+}
+
+.details{
+    font-size: 14px;
+    line-height: 14px;
+    text-decoration: none;
+    color: #FFFFFF;
+    position: relative;
+
+}
+
+.details::after{
+    content: url('../img/details.png');
+    padding-left: 16px;
+    position: absolute;
+    top: 1px;
+
+ 
+}
+
+
+
+.gallary-item-photo-1{
+    background-image: url('../img/image-1.png');
+    width: 300px;
+    height: 218px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+
+
+}
+
+.gallary-item-photo-2{
+    background-image: url('../img/image-2.png');
+    width: 300px;
+    height: 218px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+   
+
+}
+
+.gallary-item-photo-3{
+    background-image: url('../img/image-3.png');
+    width: 300px;
+    height: 218px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    
+
+}
+
+.gallary-item-photo-4{
+    background-image: url('../img/image-4.png');
+    width: 300px;
+    height: 218px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    
+
+}
+
+.gallary-item-photo-5{
+    background-image: url('../img/image-5.png');
+    width: 300px;
+    height: 218px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+  
+
+}
+
+.gallary-item-photo-6{
+    background-image: url('../img/image-6.png');
+    width: 300px;
+    height: 218px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+  
+
+}
+
+
+.gallary-item-title{
+    font-size: 18px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+footer{
+    margin-bottom: 15px;
+}
+
+footer p{
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}

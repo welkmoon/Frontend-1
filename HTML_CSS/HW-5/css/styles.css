@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #171717;
+    font-family: gilam;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+section {
+    width: 1460px;
+    margin: 0 auto;
+}
+
+.button {
+    padding: 10px 25px;
+    border: 1px solid #E4B564;
+    font-family: 'Roboto', sans-serif;
+    color: #E4B564;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.button img {
+    margin-right: 10px;
+}
+
+.main-paragraph {
+    font-size: 50px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 41px;
+}
+
+.sub-paragraph {
+    width: 1182px;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 41px;
+}
+
+.header {
+    width: 1460px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 37px;
+    margin-bottom: 120px;
+}
+
+.container-first {
+    margin-bottom: 161px;
+}
+
+.gallary-first {
+    display: grid;
+    grid-template-columns: repeat(6, 233px);
+    grid-template-rows: repeat(2, 468px);
+    grid-gap: 25px 30px;
+}
+
+.gallary-first-item {
+    padding: 0 44px;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.gallary-first-item-1 {
+    background: #634F2C;
+    grid-column: span 2;
+}
+
+.gallary-first-item-2 {
+    background: #B4A385;
+    grid-column: span 2;
+}
+
+.gallary-first-item-3 {
+    background: #E4B564;
+    grid-column: span 2;
+}
+
+.gallary-first-item-4 {
+    background: #635A4A;
+    grid-column: span 3;
+}
+
+.gallary-first-item-5 {
+    background: #B08C4D;
+    grid-column: span 3;
+}
+
+.container-second {
+    margin-bottom: 191px;
+}
+
+.main-paragraph-second {
+    margin-bottom: 94px;
+}
+
+.gallary-second {
+    display: grid;
+    grid-template-columns: repeat(3, 467px);
+    grid-template-rows: 255px 32px 101px 122px 277px;
+    grid-gap: 25px 30px;
+}
+
+.gallary-second-item {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding-left: 52px;
+    padding-top: 44px;
+}
+
+.gallary-second-item span {
+    font-weight: 700;
+}
+
+.gallary-second-item-1 {
+    font-weight: 400;
+}
+
+.gallary-second-item-1,
+.gallary-second-item-4 {
+    background: #0E0E0E;
+}
+
+.gallary-second-item-2 {
+    background: #242424;
+    font-weight: 400;
+}
+
+.gallary-second-item-3,
+.gallary-second-item-5 {
+    background: #1F1F1F;
+}
+
+.gallary-second-item-6 {
+    background: #E4B564;
+    color: #000000;
+}
+
+.gallary-second-item-7 {
+    background: #0A0909;
+}
+
+.gallary-second-item-1,
+.gallary-second-item-6 {
+    grid-row: span 2;
+}
+
+.gallary-second-item-2,
+.gallary-second-item-4,
+.gallary-second-item-5 {
+    grid-row: span 3;
+}
+
+.container-third {
+    background: #0E0E0E;
+    margin-bottom: 239px;
+}
+
+
+.container-third-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 172px;
+    margin-bottom: 72px;
+}
+
+.button-container-third {
+    padding: 10px 25px;
+}
+
+.main-paragraph-third {
+    margin-bottom: 0;
+}
+
+.gallary-third {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(2, 391px);
+}
+
+.gallary-third-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallary-third-item-1,
+.gallary-third-item-6 {
+    background: #634F2C;
+}
+
+.gallary-third-item-2 {
+    background: rgba(232, 210, 171, 0.76);
+    flex-direction: column;
+    padding: 61px 80px 61px 80px;
+}
+
+
+.gallary-third-item-2-text {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 16px 0 12px 0;
+
+}
+
+.gallary-third-item-2-text-title {
+    font-weight: 600;
+}
+
+.gallary-third-item-3 {
+    background: #E4B564;
+}
+
+.gallary-third-item-4 {
+    background: #635A4A;
+}
+
+.gallary-third-item-5 {
+    background: #B08C4D;
+}

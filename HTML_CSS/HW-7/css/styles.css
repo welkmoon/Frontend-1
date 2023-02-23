@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    position: relative;
+}
+
+
+
+header{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 58px;
+}
+
+section{
+    width: 1208px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+
+.header-logo:hover{
+    color: #3CB878;
+    transition: all 0.4s;
+}
+
+.header-navigation ul {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.header-navigation li {
+    display: inline; 
+}
+
+
+.header-text{
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.header-border{
+    width: 1px;
+    height: 19px;
+    background: rgba(255, 255, 255, 0.9);
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.header-navigation-icon{
+    fill: white;
+    transition: all 0.4s;
+
+}
+
+.header-navigation-icon:hover{
+    fill: #3CB878;
+    
+}
+
+.header-text span:hover{
+    color: #3CB878;
+    transition: all 0.4s;
+}
+
+form{
+    position: absolute;
+    width: 444px;
+    min-height: 584px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.52);
+    left: calc(50% - 444px/2 + 0.5px);
+    top: calc(50% - 584px/2 + 20px);
+    padding: 31px 60px 38px 60px;
+}
+
+.form-header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 13px;
+    position: relative;
+}
+
+.form-header-square{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 0px;
+    top: 32px;
+
+background: #3CB878;
+}
+
+.form-sign-up{
+    font-size: 20px;
+    line-height: 20px;
+    color: #434343;
+}
+
+.form-log-in{
+    font-size: 14px;
+    line-height: 14px;
+    display: block;
+    align-items: center;
+    color: #3CB878;
+    text-decoration: none;
+
+}
+
+.form-log-in:hover{
+    text-decoration: underline;
+    color: #01813F;
+    transition: all 0.4s;
+}
+
+.form-header-botton-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 34px;
+    
+}
+
+
+.form-social-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    border: none;
+    padding: 0 23px 0 10px ;
+    border-radius: 4px;
+    min-width: 157px;
+    min-height: 48px;
+    position: relative;
+}
+
+.form-social-button-border{
+    width: 1px;
+    height: 28px;
+    mix-blend-mode: normal;
+    opacity: 0.1;
+    left: 49px;
+    top: 10px;
+    position: absolute;
+}
+
+.form-social-button-border-fb{
+    background: #0A162F;
+}
+
+.form-social-button-border-google{
+    background: #2B0D09;
+}
+
+.form-social-button-fb{
+    background-color: #305DB8;
+}
+
+.form-social-button-fb:hover{
+    background-color: #022263;
+    transition: all 0.4s;
+}
+
+.form-social-button-google{
+    background-color:#DF4A32;
+    padding-right: 26px;
+}
+
+.form-social-button-google:hover{
+    background-color: #AB1F09;
+    transition: all 0.4s;
+}
+
+.form-line{
+    width: 326px;
+    height: 0px;
+    border: 0.5px solid #F2F2F2;
+    position: relative;
+    margin-bottom: 17px;
+
+}
+
+.line-label{
+    position: absolute;
+    left: 154px;
+    top: -9px;
+    font-size: 14px;
+    line-height: 14px;
+    color: #848484;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #fff;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap:15px;
+    margin-bottom: 12px;
+}
+
+.input-text{
+    padding: 15px 0 15px 20px;
+    border: 1px solid #F2F2F2;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 14px;
+    color: #434343;
+    outline: none;
+    background: #FFFFFF
+}
+
+.input-text:focus{
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.21);
+}
+
+.input-text::placeholder{
+    font-size: 14px;
+    line-height: 14px;
+    color: #BEBEBE;
+}
+
+.checkbox-container {
+    position: relative;
+    margin-left: 28px;
+    margin-bottom: 20px;
+}
+
+.checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkbox-container a{
+    color: #3CB878;
+    text-decoration: none;
+
+}
+
+.checkbox-container a:hover{
+    color: #01813F;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    transition: all .4s;
+}
+
+
+.checkmark {
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    left: -10%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.0001);
+    border: 1px solid #F2F2F2;
+
+}
+
+.checkmark::after {
+    content: '';
+    display: block;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url('../img/check.svg')no-repeat;
+    background-size: cover;
+    opacity: 0;
+    transition: .3s;
+    z-index: 2;
+}
+
+.checkbox-container input:checked + .checkmark::after {
+    opacity: 1;
+}
+
+.form-create-account-btn{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    border: none;
+    padding: 15px 106px 15px 106px;
+    background: rgba(60, 184, 120, 0.8);
+    border-radius: 4px;
+    min-width: 157px;
+
+    
+}
+
+.form-create-account-btn:hover{
+    background: #01813F;
+    transition: all .4s;
+
+}
